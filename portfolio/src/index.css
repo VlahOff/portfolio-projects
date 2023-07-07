@@ -23,9 +23,10 @@ html:focus-within {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: #12111F;
 }
 
 img,

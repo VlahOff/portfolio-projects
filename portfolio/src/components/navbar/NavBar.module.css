@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1384px;
+  height: 54px;
+}
+
+.contacts {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.site-logo {
+  width: 26px;
+}
+
+.logo {
+  color: #616161;
+}
+
+.links {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.link {
+  color: #616161;
+  padding: 12px 14px;
+}
+
+.email {
+  background-color: rgba(130, 130, 138, 0.2);
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+}

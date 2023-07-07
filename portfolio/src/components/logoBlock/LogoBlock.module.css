@@ -1,0 +1,25 @@
+.logo-section {
+  width: 960px;
+  height: 298px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.sub-title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.30);
+  font-weight: 500;
+}
+
+.logos-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 88px;
+}
