@@ -1,6 +1,6 @@
-import classes from './HeroSection.module.css';
 import avatar from '../../assets/avatar.png';
 import heroBackground from '../../assets/hero-background.png';
+import classes from './HeroSection.module.css';
 
 const HeroSection = () => {
 	return (
@@ -18,7 +18,6 @@ const HeroSection = () => {
 				/>
 				<p className={classes['avatar-emoji']}>👋</p>
 			</div>
-			//TODO: Change to glowing title comp
 			<div className={classes['title-wrapper']}>
 				<h2 className={classes.title}>SENIOR FREELANCE DESIGNER</h2>
 				<div className={classes['title-background']}></div>

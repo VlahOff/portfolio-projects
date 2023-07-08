@@ -1,7 +1,6 @@
 .wrapper {
   position: relative;
-  height: 167px;
-  margin: 0 auto;
+  height: fit-content;
 }
 
 .title {

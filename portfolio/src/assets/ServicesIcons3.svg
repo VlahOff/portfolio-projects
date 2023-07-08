@@ -1,0 +1,43 @@
+<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Services icons">
+<g id="Background" filter="url(#filter0_b_114_332)">
+<path d="M1 16.2533C1 9.06284 1 5.4676 3.2338 3.2338C5.4676 1 9.06284 1 16.2533 1H29.7467C36.9372 1 40.5324 1 42.7662 3.2338C45 5.4676 45 9.06284 45 16.2533V29.7467C45 36.9372 45 40.5324 42.7662 42.7662C40.5324 45 36.9372 45 29.7467 45H16.2533C9.06284 45 5.4676 45 3.2338 42.7662C1 40.5324 1 36.9372 1 29.7467V16.2533Z" fill="#3F3D64" fill-opacity="0.1"/>
+<path d="M1 16.2533C1 9.06284 1 5.4676 3.2338 3.2338C5.4676 1 9.06284 1 16.2533 1H29.7467C36.9372 1 40.5324 1 42.7662 3.2338C45 5.4676 45 9.06284 45 16.2533V29.7467C45 36.9372 45 40.5324 42.7662 42.7662C40.5324 45 36.9372 45 29.7467 45H16.2533C9.06284 45 5.4676 45 3.2338 42.7662C1 40.5324 1 36.9372 1 29.7467V16.2533Z" stroke="url(#paint0_linear_114_332)" stroke-width="0.946989"/>
+</g>
+<circle id="Ellipse 353" cx="23" cy="23" r="17.75" fill="#22212F" stroke="#373646" stroke-width="0.5"/>
+<path id="Vector 279" d="M13 2V44" stroke="#373646" stroke-width="0.5"/>
+<path id="Vector 280" d="M33 2V44" stroke="#373646" stroke-width="0.5"/>
+<path id="Vector 281" d="M44 13L2 13" stroke="#373646" stroke-width="0.5"/>
+<path id="Vector 282" d="M44 33L2 33" stroke="#373646" stroke-width="0.5"/>
+<g id="Group 1321314385">
+<g id="Group 48095889">
+<path id="Rectangle 1820" d="M13 19H18V30.053C18 30.576 17.576 31 17.053 31H13.947C13.424 31 13 30.576 13 30.053V19Z" fill="#FFE9BD"/>
+<path id="Rectangle 1817" d="M13 16.947C13 16.424 13.424 16 13.947 16H17.0512C17.5742 16 17.9982 16.424 17.9982 16.947V20.8889H13V16.947Z" fill="#FDB40F"/>
+<rect id="Rectangle 1818" x="13" y="20.8885" width="4.99823" height="4.88889" fill="#FCD58A"/>
+</g>
+<g id="Group 48095891">
+<path id="Rectangle 1817_2" d="M20.5 16.947C20.5 16.424 20.924 16 21.447 16H24.5512C25.0742 16 25.4982 16.424 25.4982 16.947V20.8889H20.5V16.947Z" fill="#2662FC"/>
+<rect id="Rectangle 1818_2" x="20.5" y="20.8887" width="4.99823" height="4.88889" fill="#749AFB"/>
+<path id="Rectangle 1820_2" d="M20.5 25.7783H25.4982V29.7202C25.4982 30.2432 25.0742 30.6672 24.5512 30.6672H21.447C20.924 30.6672 20.5 30.2432 20.5 29.7202V25.7783Z" fill="#BECEF8"/>
+</g>
+<g id="Group 48095890">
+<path id="Rectangle 1817_3" d="M28 16.947C28 16.424 28.424 16 28.947 16H32.0512C32.5742 16 32.9982 16.424 32.9982 16.947V20.8889H28V16.947Z" fill="#F24E1E"/>
+<rect id="Rectangle 1818_3" x="28" y="20.8887" width="4.99823" height="4.88889" fill="#FD835F"/>
+<path id="Rectangle 1820_3" d="M28 25.7783H32.9982V29.7202C32.9982 30.2432 32.5742 30.6672 32.0512 30.6672H28.947C28.424 30.6672 28 30.2432 28 29.7202V25.7783Z" fill="#FFA68C"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_114_332" x="-8.9434" y="-8.9434" width="63.8868" height="63.8868" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="4.73494"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_114_332"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_114_332" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_114_332" x1="4.66667" y1="1" x2="25.2917" y2="50.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E64D21"/>
+<stop offset="0.359375" stop-color="white"/>
+<stop offset="1" stop-color="#FF6737"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,18 +1,17 @@
 import ExperienceCard from './ExperienceCard';
+
+import kcStudioLogo from '../../assets/KcstudioMidLogo.png';
 import pukkaioLogo from '../../assets/PukkaioMidLogo.png';
 import strapiLogo from '../../assets/StrapjsMidLogo.png';
-import kcStudioLogo from '../../assets/KcstudioMidLogo.png';
 import sushioLogo from '../../assets/SushioMidLogo.png';
+import GlowingTitle from '../glowingTitle/GlowingTitle';
+
 import classes from './ExperienceSection.module.css';
 
 const ExperienceSection = () => {
 	return (
 		<section className={classes['experience-section']}>
-			//TODO: Change to glowing title comp
-			<div className={classes['main-title-wrapper']}>
-				<h2 className={classes['main-title']}>12+ YEARS XP</h2>
-				<div className={classes['main-title-background']}></div>
-			</div>
+			<GlowingTitle title="12+ YEARS XP" />
 			<div className={classes['titles-wrapper']}>
 				<h4 className={classes.title}>From Saas to Website & Mobile</h4>
 				<p className={classes['sub-title']}>
