@@ -19,9 +19,9 @@ import logo6 from '../../assets/logo6.png';
 import logo7 from '../../assets/logo7.png';
 import logo8 from '../../assets/logo8.png';
 import logo9 from '../../assets/logo9.png';
-import classes from './LogoBlock.module.css';
+import classes from './LogosSection.module.css';
 
-const LogoBlock = () => {
+const LogosSection = () => {
 	return (
 		<section className={classes['logo-section']}>
 			<h3 className={classes.title}>
@@ -32,13 +32,23 @@ const LogoBlock = () => {
 			</p>
 			<div className={classes['logos-wrapper']}>
 				<img
+					src={logo2}
+					alt="Logo 2"
+					className={classes.logo}
+				/>
+				<img
+					src={logo21}
+					alt="Logo 21"
+					className={classes.logo}
+				/>
+				<img
 					src={logo1}
 					alt="Logo 1"
 					className={classes.logo}
 				/>
 				<img
-					src={logo2}
-					alt="Logo 2"
+					src={logo4}
+					alt="Logo 4"
 					className={classes.logo}
 				/>
 				<img
@@ -47,8 +57,18 @@ const LogoBlock = () => {
 					className={classes.logo}
 				/>
 				<img
-					src={logo4}
-					alt="Logo 4"
+					src={logo12}
+					alt="Logo 12"
+					className={classes.logo}
+				/>
+				<img
+					src={logo18}
+					alt="Logo 18"
+					className={classes.logo}
+				/>
+				<img
+					src={logo11}
+					alt="Logo 11"
 					className={classes.logo}
 				/>
 				<img
@@ -67,8 +87,28 @@ const LogoBlock = () => {
 					className={classes.logo}
 				/>
 				<img
+					src={logo17}
+					alt="Logo 17"
+					className={classes.logo}
+				/>
+				<img
+					src={logo13}
+					alt="Logo 13"
+					className={classes.logo}
+				/>
+				<img
+					src={logo15}
+					alt="Logo 15"
+					className={classes.logo}
+				/>
+				<img
 					src={logo8}
 					alt="Logo 8"
+					className={classes.logo}
+				/>
+				<img
+					src={logo20}
+					alt="Logo 20"
 					className={classes.logo}
 				/>
 				<img
@@ -82,43 +122,8 @@ const LogoBlock = () => {
 					className={classes.logo}
 				/>
 				<img
-					src={logo11}
-					alt="Logo 11"
-					className={classes.logo}
-				/>
-				<img
-					src={logo12}
-					alt="Logo 12"
-					className={classes.logo}
-				/>
-				<img
-					src={logo13}
-					alt="Logo 13"
-					className={classes.logo}
-				/>
-				<img
-					src={logo14}
-					alt="Logo 14"
-					className={classes.logo}
-				/>
-				<img
-					src={logo15}
-					alt="Logo 15"
-					className={classes.logo}
-				/>
-				<img
 					src={logo16}
 					alt="Logo 16"
-					className={classes.logo}
-				/>
-				<img
-					src={logo17}
-					alt="Logo 17"
-					className={classes.logo}
-				/>
-				<img
-					src={logo18}
-					alt="Logo 18"
 					className={classes.logo}
 				/>
 				<img
@@ -127,13 +132,8 @@ const LogoBlock = () => {
 					className={classes.logo}
 				/>
 				<img
-					src={logo20}
-					alt="Logo 20"
-					className={classes.logo}
-				/>
-				<img
-					src={logo21}
-					alt="Logo 21"
+					src={logo14}
+					alt="Logo 14"
 					className={classes.logo}
 				/>
 			</div>
@@ -141,4 +141,4 @@ const LogoBlock = () => {
 	);
 };
 
-export default LogoBlock;
+export default LogosSection;

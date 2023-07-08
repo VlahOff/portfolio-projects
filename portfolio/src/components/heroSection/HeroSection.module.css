@@ -8,9 +8,12 @@
 .hero-background {
   position: absolute;
   top: 236px;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%);
   z-index: -5;
   width: 100%;
+  max-width: 1440px;
+
 }
 
 .introduction {
@@ -34,8 +37,8 @@
 }
 
 .title-wrapper {
-  margin: 105px 0 150px 0;
   position: relative;
+  margin: 105px 0 150px 0;
 }
 
 .title {

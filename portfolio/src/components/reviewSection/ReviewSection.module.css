@@ -1,0 +1,30 @@
+.reviews-section {
+  margin: 0 auto;
+  margin-bottom: 141px;
+  max-width: 1445px;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  position: relative;
+}
+
+.reviews::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  display: block;
+  inset: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, #12111F 0%, #12111F 10%, rgba(18, 17, 31, 0.98) 20%, rgba(18, 17, 31, 0) 50%, rgba(18, 17, 31, 0.98) 80%, #12111F 90%, #12111F 100%);
+}
+
+.slider {
+  margin: 0 auto;
+  margin-top: 45px;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  position: relative;
+  height: 167px;
+  margin: 0 auto;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  text-shadow: 4px 1px 5px #000;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100.5%;
+  letter-spacing: 1.16px;
+}
+
+.background {
+  width: 1330px;
+  height: 167px;
+  background: linear-gradient(278deg, rgba(255, 155, 84, 0.9) 0%, rgba(255, 255, 255, 0.32) 45.99%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(104.42% 95.46% at 42.78% 42.58%, #621ABE 60%, rgba(36, 33, 75, 0.60) 100%);
+  filter: blur(150px);
+  -webkit-filter: blur(150px);
+  z-index: -1;
+}

@@ -1,8 +1,10 @@
-import classes from './App.module.css';
-import Hero from './components/heroSection/Hero';
-import LogoBlock from './components/logoBlock/LogoBlock';
+import ExperienceSection from './components/experienceSection/ExperienceSection';
+import HeroSection from './components/heroSection/HeroSection';
+import LogosSection from './components/logosSection/LogosSection';
 import NavBar from './components/navbar/NavBar';
-import Works from './components/works/Works';
+import ReviewSection from './components/reviewSection/ReviewSection';
+import ServicesSection from './components/servicesSection/ServicesSection';
+import WorksSection from './components/worksSection/WorksSection';
 
 function App() {
 	return (
@@ -11,9 +13,12 @@ function App() {
 				<NavBar />
 			</header>
 			<main>
-				<Hero />
-				<LogoBlock />
-				<Works />
+				<HeroSection />
+				<LogosSection />
+				<WorksSection />
+				<ExperienceSection />
+				<ReviewSection />
+				<ServicesSection />
 			</main>
 			<footer></footer>
 		</>

@@ -1,0 +1,97 @@
+.review-card {
+  width: 507px;
+  height: 434px;
+  border-radius: 8px;
+  border: 1px solid #383838;
+  background: #292835;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  z-index: -5;
+}
+
+.avatar-wrapper {
+  width: 69px;
+  height: 69px;
+  background: linear-gradient(180deg, rgba(131, 130, 138, 0.20) 0%, rgba(131, 130, 138, 0.00) 100%);
+  /* opacity: 0.7699999809265137; */
+  border-radius: 100%;
+  padding-top: 2px;
+  overflow: hidden;
+  margin-top: 38px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  object-fit: cover;
+}
+
+.company-logo-wrapper {
+  position: absolute;
+  top: 19px;
+  right: 1px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+
+.title {
+  color: #9E9E9E;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.at {
+  display: inline;
+  color: #0067F6;
+}
+
+.review {
+  color: #eeeeee;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 445px;
+  margin-bottom: 41px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 41px;
+  border-radius: 4px;
+  background: rgba(22, 22, 22, 0.20);
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  position: relative;
+}
+
+.link img {
+  width: 32px;
+}
+
+.card-background {
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  z-index: -1;
+}

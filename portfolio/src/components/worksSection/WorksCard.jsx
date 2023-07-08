@@ -10,12 +10,16 @@ const WorksCard = ({ image, logo, title, subtitle }) => {
 				/>
 			</div>
 			<footer className={classes.footer}>
-				<img
-					src={logo}
-					alt={subtitle}
-				/>
-				<h3>{title}</h3>
-				<p>{subtitle}</p>
+				<div className={'logo-wrapper'}>
+					<img
+						src={logo}
+						alt={subtitle}
+					/>
+				</div>
+				<div className={classes['titles-wrapper']}>
+					<h3 className={classes.title}>{title}</h3>
+					<p className={classes['sub-title']}>{subtitle}</p>
+				</div>
 			</footer>
 		</article>
 	);
