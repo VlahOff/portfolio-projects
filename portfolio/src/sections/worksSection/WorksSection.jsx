@@ -18,7 +18,7 @@ import classes from './WorksSection.module.css';
 
 const WorksSection = () => {
 	return (
-		<section className={classes['works-section']}>
+		<section className={classes['works-section']} id='works'>
 			<WorksCard
 				image={website1Image}
 				logo={topoLogo}

@@ -19,7 +19,7 @@ import classes from './ServicesSection.module.css';
 
 const ServicesSection = () => {
 	return (
-		<section className={classes['services-section']}>
+		<section className={classes['services-section']} id='services'>
 			<GlowingTitle title="SERVICES" />
 			<div className={classes['chips-container']}>
 				<ServiceChip title="Design System" />

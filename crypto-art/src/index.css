@@ -18,14 +18,16 @@ ol {
   margin: 0px;
 }
 
-html:focus-within {
+html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: #120A14;
 }
 
 img,

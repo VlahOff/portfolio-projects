@@ -7,7 +7,7 @@ import classes from './ContactSection.module.css';
 
 const ContactSection = () => {
 	return (
-		<section className={classes.section}>
+		<section className={classes.section} id='contact'>
 			<GlowingTitle
 				title="CONTACT"
 				className={classes['glow-title']}

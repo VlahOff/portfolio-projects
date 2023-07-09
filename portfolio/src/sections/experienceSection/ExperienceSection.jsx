@@ -10,7 +10,7 @@ import classes from './ExperienceSection.module.css';
 
 const ExperienceSection = () => {
 	return (
-		<section className={classes['experience-section']}>
+		<section className={classes['experience-section']} id='experience'>
 			<GlowingTitle title="12+ YEARS XP" />
 			<div className={classes['titles-wrapper']}>
 				<h4 className={classes.title}>From Saas to Website & Mobile</h4>

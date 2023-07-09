@@ -1,0 +1,54 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 36px auto;
+  max-width: 1196px;
+}
+
+.left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.left-nav .logo {
+  width: 30.118px;
+  height: 32px;
+}
+
+.logo-text {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 13px;
+}
+
+.center-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.link {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.right-nav .logo {
+  width: 18px;
+  height: 18px;
+}

@@ -38,25 +38,25 @@ const NavBar = () => {
 			</div>
 			<div className={classes['right-nav']}>
 				<a
-					href="#"
+					href="#works"
 					className={classes.link}
 				>
 					Works
 				</a>
 				<a
-					href="#"
+					href="#experience"
 					className={classes.link}
 				>
 					Experiences
 				</a>
 				<a
-					href="#"
+					href="#services"
 					className={classes.link}
 				>
 					Services
 				</a>
 				<a
-					href="#"
+					href="#contact"
 					className={classes.email}
 				>
 					contact@kc.studio
