@@ -1,10 +1,10 @@
+import GlowingTitle from '../../components/glowingTitle/GlowingTitle';
 import ExperienceCard from './ExperienceCard';
 
 import kcStudioLogo from '../../assets/KcstudioMidLogo.png';
 import pukkaioLogo from '../../assets/PukkaioMidLogo.png';
 import strapiLogo from '../../assets/StrapjsMidLogo.png';
 import sushioLogo from '../../assets/SushioMidLogo.png';
-import GlowingTitle from '../glowingTitle/GlowingTitle';
 
 import classes from './ExperienceSection.module.css';
 

@@ -1,6 +1,7 @@
-import classes from './ReviewCard.module.css';
-import linkedinLogo from '../../assets/linkedin logo.png';
 import decorationLines from '../../assets/decorationLines.svg';
+import linkedinLogo from '../../assets/linkedin logo.png';
+
+import classes from './ReviewCard.module.css';
 
 const ReviewCard = ({ avatar, companyLogo, name, title, at, review }) => {
 	return (

@@ -1,5 +1,6 @@
 import avatar from '../../assets/avatar.png';
 import heroBackground from '../../assets/hero-background.png';
+
 import classes from './HeroSection.module.css';
 
 const HeroSection = () => {

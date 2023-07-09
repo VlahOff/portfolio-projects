@@ -19,6 +19,7 @@ import logo6 from '../../assets/logo6.png';
 import logo7 from '../../assets/logo7.png';
 import logo8 from '../../assets/logo8.png';
 import logo9 from '../../assets/logo9.png';
+
 import classes from './LogosSection.module.css';
 
 const LogosSection = () => {

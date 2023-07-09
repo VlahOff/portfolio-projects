@@ -1,8 +1,10 @@
 import ReviewCard from './ReviewCard';
+
 import avatar from '../../assets/ReviewAvatar.png';
 import companyLogo from '../../assets/ReviewFirmLogo.png';
-import classes from './ReviewSection.module.css';
 import slider from '../../assets/Slider.svg';
+
+import classes from './ReviewSection.module.css';
 
 const ReviewSection = () => {
 	return (

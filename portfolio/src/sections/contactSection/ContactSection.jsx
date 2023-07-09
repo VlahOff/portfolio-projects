@@ -1,6 +1,8 @@
-import GlowingTitle from '../glowingTitle/GlowingTitle';
+import GlowingTitle from '../../components/glowingTitle/GlowingTitle';
+
 import avatar from '../../assets/ContactAvatar.png';
 import pencilImage from '../../assets/pencil.svg';
+
 import classes from './ContactSection.module.css';
 
 const ContactSection = () => {

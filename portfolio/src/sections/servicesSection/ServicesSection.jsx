@@ -1,3 +1,4 @@
+import GlowingTitle from '../../components/glowingTitle/GlowingTitle';
 import ServiceCard from './serviceCard/ServiceCard';
 import ServiceChip from './serviceChip/ServiceChip';
 
@@ -13,7 +14,6 @@ import photoshopIcon from '../../assets/psIcon.png';
 import sketchIcon from '../../assets/sketchIcon.png';
 import slackIcon from '../../assets/slackIcon.png';
 import trashIcon from '../../assets/trashIcon.png';
-import GlowingTitle from '../glowingTitle/GlowingTitle';
 
 import classes from './ServicesSection.module.css';
 

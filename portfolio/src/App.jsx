@@ -1,11 +1,12 @@
-import ContactSection from './components/contactSection/ContactSection';
-import ExperienceSection from './components/experienceSection/ExperienceSection';
-import HeroSection from './components/heroSection/HeroSection';
-import LogosSection from './components/logosSection/LogosSection';
+import Footer from './components/footer/Footer';
 import NavBar from './components/navbar/NavBar';
-import ReviewSection from './components/reviewSection/ReviewSection';
-import ServicesSection from './components/servicesSection/ServicesSection';
-import WorksSection from './components/worksSection/WorksSection';
+import ContactSection from './sections/contactSection/ContactSection';
+import ExperienceSection from './sections/experienceSection/ExperienceSection';
+import HeroSection from './sections/heroSection/HeroSection';
+import LogosSection from './sections/logosSection/LogosSection';
+import ReviewSection from './sections/reviewSection/ReviewSection';
+import ServicesSection from './sections/servicesSection/ServicesSection';
+import WorksSection from './sections/worksSection/WorksSection';
 
 function App() {
 	return (
@@ -22,7 +23,9 @@ function App() {
 				<ServicesSection />
 				<ContactSection />
 			</main>
-			<footer></footer>
+			<footer>
+				<Footer />
+			</footer>
 		</>
 	);
 }

@@ -1,29 +1,42 @@
 import logo from '../../assets/logo.svg';
+
 import classes from './NavBar.module.css';
 
 const NavBar = () => {
 	return (
 		<nav className={classes.nav}>
-			<div className={classes.contacts}>
+			<div className={classes['left-nav']}>
 				<img
 					src={logo}
 					alt="Logo"
 					className={classes['site-logo']}
 				/>
-				<a href="#">
+				<a
+					href="#"
+					className={classes['social-link']}
+				>
 					<i className={`fa-brands fa-twitter fa-xl ${classes.logo}`}></i>
 				</a>
-				<a href="#">
+				<a
+					href="#"
+					className={classes['social-link']}
+				>
 					<i className={`fa-brands fa-linkedin fa-xl ${classes.logo}`}></i>
 				</a>
-				<a href="#">
+				<a
+					href="#"
+					className={classes['social-link']}
+				>
 					<i className={`fa-brands fa-dribbble fa-xl ${classes.logo}`}></i>
 				</a>
-				<a href="#">
+				<a
+					href="#"
+					className={classes['social-link']}
+				>
 					<i className={`fa-brands fa-figma fa-xl ${classes.logo}`}></i>
 				</a>
 			</div>
-			<div className={classes.links}>
+			<div className={classes['right-nav']}>
 				<a
 					href="#"
 					className={classes.link}

@@ -8,7 +8,7 @@ const ExperienceCard = ({ period, logo, title, at, country }) => {
 				<img
 					src={logo}
 					alt="Firm Logo"
-          className={classes.logo}
+					className={classes.logo}
 				/>
 			</div>
 			<h2 className={classes.title}>{title}</h2>
