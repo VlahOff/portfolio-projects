@@ -78,6 +78,14 @@
   background: var(--gradient-linear-primary, linear-gradient(273deg, #FF4060 0%, #FF81C5 52.08%, #6D5EEA 100%));
 }
 
+.btn:hover {
+  box-shadow: 0 0 0px 1px #F11271,
+    0 0 10px 2px #FD3084,
+    inset 0 0 0px 1px #F11271,
+    inset 0 0 10px 2px #FD3084;
+  color: white;
+}
+
 .characters-wrapper {
   position: relative;
 }

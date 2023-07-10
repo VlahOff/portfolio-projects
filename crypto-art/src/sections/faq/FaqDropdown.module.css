@@ -1,9 +1,22 @@
 .card {
   padding: 19px 24px;
-  border: 1px solid #FF4262;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.10);
   width: 732px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to left, rgba(255, 26, 64, 1), rgba(255, 73, 171, 1), rgba(69, 47, 255, 1));
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 10px;
+  background-color: #120A14;
+  z-index: -1;
 }
 
 .header {

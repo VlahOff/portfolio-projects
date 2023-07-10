@@ -1,17 +1,21 @@
-import ethIcon from '../../assets/ethLogo.svg';
-import vectorBackground from '../../assets/vectors.svg';
-import monkey1 from '../../assets/Group 66.png';
-import monkey2 from '../../assets/Group 65.png';
 import monkey3 from '../../assets/Group 63.png';
 import monkey4 from '../../assets/Group 64.png';
+import monkey2 from '../../assets/Group 65.png';
+import monkey1 from '../../assets/Group 66.png';
 import monkey5 from '../../assets/Group 67.png';
-import discordIcon from '../../assets/icon-discord.svg';
 import twitterIcon from '../../assets/Twitter Logo.svg';
+import ethIcon from '../../assets/ethLogo.svg';
+import discordIcon from '../../assets/icon-discord.svg';
+import vectorBackground from '../../assets/vectors.svg';
+
 import classes from './JoinSection.module.css';
 
 const JoinSection = () => {
 	return (
-		<section className={classes.section}>
+		<section
+			className={classes.section}
+			id="community"
+		>
 			<header className={classes.header}>
 				<img
 					src={ethIcon}

@@ -7,7 +7,10 @@ import classes from './AboutSection.module.css';
 
 const AboutSection = () => {
 	return (
-		<section className={classes.section}>
+		<section
+			className={classes.section}
+			id="about"
+		>
 			<div className={classes['titles-wrapper']}>
 				<h2 className={classes.title}>
 					A new wave of collectibles is about to hit the blockchain.

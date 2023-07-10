@@ -21,11 +21,16 @@
   line-height: 13px;
 }
 
-.copyright {
+.copyright,
+.designer-link {
   color: #FFF;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+}
+
+.designer-link {
+  text-decoration: underline;
 }

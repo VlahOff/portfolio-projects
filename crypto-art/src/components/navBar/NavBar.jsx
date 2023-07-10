@@ -21,7 +21,7 @@ const NavBar = () => {
 			<ul className={classes['center-nav']}>
 				<li>
 					<a
-						href=""
+						href="#home"
 						className={classes.link}
 					>
 						HOME
@@ -29,7 +29,7 @@ const NavBar = () => {
 				</li>
 				<li>
 					<a
-						href=""
+						href="#about"
 						className={classes.link}
 					>
 						ABOUT
@@ -37,7 +37,7 @@ const NavBar = () => {
 				</li>
 				<li>
 					<a
-						href=""
+						href="#characters"
 						className={classes.link}
 					>
 						CHARACTERS
@@ -45,7 +45,7 @@ const NavBar = () => {
 				</li>
 				<li>
 					<a
-						href=""
+						href="#faq"
 						className={classes.link}
 					>
 						FAQ
@@ -53,7 +53,7 @@ const NavBar = () => {
 				</li>
 				<li>
 					<a
-						href=""
+						href="#community"
 						className={classes.link}
 					>
 						COMMUNITY

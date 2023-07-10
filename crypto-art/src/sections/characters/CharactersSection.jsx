@@ -1,20 +1,26 @@
-import classes from './CharactersSection.module.css';
-import curlyLine from '../../assets/Spline 13.png';
-import straightLine from '../../assets/Spline 17.svg';
-import leftArrow from '../../assets/leftArrow.svg';
-import rightArrow from '../../assets/rightArrow.svg';
 import CharacterCard from './CharacterCard';
+
+import monkey4 from '../../assets/BAYC 2.png';
+import monkey3 from '../../assets/BAYC 3.png';
 import monkey1 from '../../assets/BAYC 7.png';
 import monkey2 from '../../assets/BAYC 8.png';
-import monkey3 from '../../assets/BAYC 3.png';
-import monkey4 from '../../assets/BAYC 2.png';
+import curlyLine from '../../assets/Spline 13.png';
+import straightLineRight from '../../assets/Spline 17.svg';
+import straightLineLeft from '../../assets/Spline 18.png';
+import leftArrow from '../../assets/leftArrow.svg';
+import rightArrow from '../../assets/rightArrow.svg';
+
+import classes from './CharactersSection.module.css';
 
 const CharactersSection = () => {
 	return (
-		<section className={classes.section}>
+		<section
+			className={classes.section}
+			id="characters"
+		>
 			<div className={classes.decoration}>
 				<img
-					src={straightLine}
+					src={straightLineLeft}
 					alt="Straight decoration line"
 				/>
 				<img
@@ -22,7 +28,7 @@ const CharactersSection = () => {
 					alt="Curly decoration line"
 				/>
 				<img
-					src={straightLine}
+					src={straightLineRight}
 					alt="Straight decoration line"
 				/>
 			</div>

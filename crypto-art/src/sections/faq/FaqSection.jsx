@@ -1,9 +1,13 @@
 import FaqDropdown from './FaqDropdown';
+
 import classes from './FaqSection.module.css';
 
 const FaqSection = () => {
 	return (
-		<section className={classes.section}>
+		<section
+			className={classes.section}
+			id="faq"
+		>
 			<h2 className={classes['main-title']}>FAQ</h2>
 			<h3 className={classes.title}>Your questions, answered.</h3>
 			<div className={classes['faq-container']}>

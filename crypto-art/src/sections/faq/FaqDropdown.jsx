@@ -1,4 +1,5 @@
 import plusIcon from '../../assets/Plus.svg';
+
 import classes from './FaqDropdown.module.css';
 
 const FaqDropdown = ({ title, description }) => {

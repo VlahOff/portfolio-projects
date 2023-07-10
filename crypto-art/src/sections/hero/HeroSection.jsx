@@ -10,7 +10,10 @@ import classes from './HeroSection.module.css';
 
 const HeroSection = () => {
 	return (
-		<section className={classes['hero-section']}>
+		<section
+			className={classes['hero-section']}
+			id="home"
+		>
 			<div className={classes['hero-wrapper']}>
 				<div className={classes['light-left']}></div>
 				<div className={classes['light-right']}></div>
@@ -30,7 +33,12 @@ const HeroSection = () => {
 						Digital marketplace for crypto collectibles and NFTs. Buy, sell, and
 						discover exclusive digital assets today.
 					</p>
-					<button className={classes.btn}>connect wallet</button>
+					<a
+						href="#"
+						className={classes.btn}
+					>
+						connect wallet
+					</a>
 				</div>
 				<div className={classes['characters-wrapper']}>
 					<img

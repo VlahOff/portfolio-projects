@@ -41,6 +41,10 @@
   text-transform: uppercase;
 }
 
+.link:hover {
+  color: #FF4262;
+}
+
 .right-nav {
   display: flex;
   justify-content: center;

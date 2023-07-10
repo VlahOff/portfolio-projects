@@ -1,6 +1,7 @@
-import classes from './BrandsBanner.module.css';
-import webflowLogo from '../../assets/webflowLogo.svg';
 import relumeLogo from '../../assets/relumeLogo.svg';
+import webflowLogo from '../../assets/webflowLogo.svg';
+
+import classes from './BrandsBanner.module.css';
 
 const BrandsBanner = () => {
 	return (

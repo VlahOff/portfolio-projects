@@ -39,14 +39,43 @@
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 100%;
-  border: 1px solid#FF4262;
   width: 43px;
   height: 43px;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to left, rgba(255, 26, 64, 1), rgba(255, 73, 171, 1), rgba(69, 47, 255, 1));
+  cursor: pointer;
 }
 
-.btn-arrow {
-  margin: 0 auto;
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 100%;
+  background-color: #120A14;
+  z-index: -1;
+  transition: 200ms
+}
+
+.btn:hover::before {
+  opacity: 50%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.btn:hover::after {
+  color: white;
 }
 
 .card-container {
