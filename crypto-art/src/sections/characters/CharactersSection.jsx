@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import CharacterCard from './CharacterCard';
 
 import monkey4 from '../../assets/BAYC 2.png';
@@ -13,6 +14,16 @@ import rightArrow from '../../assets/rightArrow.svg';
 import classes from './CharactersSection.module.css';
 
 const CharactersSection = () => {
+	const cardContainer = useRef(null);
+
+	const onLeftArrowClick = () => {
+		cardContainer.current.scrollLeft = cardContainer.current.scrollLeft - 200;
+	};
+	
+	const onRightArrowClick = () => {
+		cardContainer.current.scrollLeft = cardContainer.current.scrollLeft + 200;
+	};
+
 	return (
 		<section
 			className={classes.section}
@@ -38,14 +49,20 @@ const CharactersSection = () => {
 					<h2 className={classes['main-title']}>Favourite character</h2>
 				</div>
 				<div className={classes['btn-wrapper']}>
-					<button className={classes.btn}>
+					<button
+						className={classes.btn}
+						onClick={onLeftArrowClick}
+					>
 						<img
 							src={leftArrow}
 							alt="Left Arrow"
 							className={classes['btn-arrow']}
 						/>
 					</button>
-					<button className={classes.btn}>
+					<button
+						className={classes.btn}
+						onClick={onRightArrowClick}
+					>
 						<img
 							src={rightArrow}
 							alt="Right Arrow"
@@ -54,7 +71,10 @@ const CharactersSection = () => {
 					</button>
 				</div>
 			</header>
-			<main className={classes['card-container']}>
+			<main
+				className={classes['card-container']}
+				ref={cardContainer}
+			>
 				<CharacterCard
 					title="Monkey Icon"
 					image={monkey1}
@@ -70,6 +90,36 @@ const CharactersSection = () => {
 				<CharacterCard
 					title="Monkey Icon"
 					image={monkey3}
+					time={'12h:10m:23s'}
+					bidPrice={'18.87 ETH'}
+				/>
+				<CharacterCard
+					title="Monkey Icon"
+					image={monkey4}
+					time={'12h:10m:23s'}
+					bidPrice={'18.87 ETH'}
+				/>
+				<CharacterCard
+					title="Monkey Icon"
+					image={monkey1}
+					time={'12h:10m:23s'}
+					bidPrice={'18.87 ETH'}
+				/>
+				<CharacterCard
+					title="Monkey Icon"
+					image={monkey2}
+					time={'12h:10m:23s'}
+					bidPrice={'18.87 ETH'}
+				/>
+				<CharacterCard
+					title="Monkey Icon"
+					image={monkey3}
+					time={'12h:10m:23s'}
+					bidPrice={'18.87 ETH'}
+				/>
+				<CharacterCard
+					title="Monkey Icon"
+					image={monkey4}
 					time={'12h:10m:23s'}
 					bidPrice={'18.87 ETH'}
 				/>

@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 import githubLogo from '../../assets/GitHub Logo.svg';
 import instagramLogo from '../../assets/Instagram Logo.svg';
 import twitterLogo from '../../assets/Twitter Logo.svg';
@@ -6,8 +8,20 @@ import cryptoArtLogo from '../../assets/cryptoArtLogo.svg';
 import classes from './NavBar.module.css';
 
 const NavBar = () => {
+	const [isSticky, setIsSticky] = useState(false);
+
+	useEffect(() => {
+		window.onscroll = () => {
+			if (window.scrollY >= 200) {
+				setIsSticky(true);
+			} else {
+				setIsSticky(false);
+			}
+		};
+	}, []);
+
 	return (
-		<nav className={classes.navigation}>
+		<nav className={`${classes.navigation} ${isSticky && classes.sticky}`}>
 			<div className={classes['left-nav']}>
 				<div className={classes['logo-wrapper']}>
 					<img

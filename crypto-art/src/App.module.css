@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: center;
   margin-bottom: 6px;
@@ -13,4 +13,4 @@
 
 .link:hover {
   border: 1px solid white;
-} 
+}

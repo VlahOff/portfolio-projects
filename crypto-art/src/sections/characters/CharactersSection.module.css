@@ -1,5 +1,5 @@
 .section {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 90px;
 }
@@ -80,5 +80,12 @@
 
 .card-container {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   gap: 32px;
+  overflow: hidden;
+  max-height: 400px;
+  scroll-behavior: smooth;
 }
