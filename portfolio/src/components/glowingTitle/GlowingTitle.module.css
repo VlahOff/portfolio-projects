@@ -25,4 +25,5 @@
   filter: blur(150px);
   -webkit-filter: blur(150px);
   z-index: -1;
+  margin: 0 auto;
 }

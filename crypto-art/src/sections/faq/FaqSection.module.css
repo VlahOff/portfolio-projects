@@ -1,0 +1,30 @@
+.section {
+  margin: 100px;
+}
+
+.main-title {
+  color: #FF4262;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+
+.title {
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}

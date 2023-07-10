@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  height: 148px;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-text {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 13px;
+}
+
+.copyright {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}

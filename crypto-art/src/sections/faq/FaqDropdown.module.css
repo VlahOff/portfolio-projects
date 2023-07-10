@@ -1,0 +1,26 @@
+.card {
+  padding: 19px 24px;
+  border: 1px solid #FF4262;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.10);
+  width: 732px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.plus-icon {
+  width: 32px;
+  height: 32px;
+}

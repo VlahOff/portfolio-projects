@@ -1,0 +1,14 @@
+.banner {
+  display: flex;
+  padding: 15px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #FF4262;
+  height: 82px;
+}
+
+.brand {
+  width: 182px;
+  height: 44px;
+}

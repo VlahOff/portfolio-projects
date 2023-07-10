@@ -1,0 +1,98 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 111px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 414px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.sub-title {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+}
+
+.characters-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: -14px;
+  width: 388px;
+  margin-bottom: 40px;
+}
+
+.links-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 68px;
+  padding: 24px 40px;
+  border-radius: 60px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.link-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.twitter {
+  border: 1px solid #36B9FF;
+  background: #36B9FF;
+}
+
+.discord {
+  border: 1px solid #5765F2;
+  background: #5765F2;
+}
+
+.background-vector {
+  position: absolute;
+  top: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.15;
+  width: 720px;
+  z-index: -5;
+}

@@ -12,6 +12,7 @@
   height: 857px;
   border-radius: 857px;
   background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(109, 94, 234, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%);
+  z-index: -4;
 }
 
 .light-right {
@@ -22,6 +23,7 @@
   height: 857px;
   border-radius: 857px;
   background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(109, 94, 234, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%);
+  z-index: -4;
 }
 
 .light-center {
@@ -32,6 +34,7 @@
   height: 1379px;
   border-radius: 1639px;
   background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(255, 129, 197, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+  z-index: -4;
 }
 
 .title-wrapper {
@@ -107,10 +110,11 @@
 
 .background-vectors {
   position: absolute;
-  top: 0;
+  top: -90px;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0.15;
+  z-index: -5;
 }
 
 .background {
@@ -118,4 +122,5 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  z-index: -10;
 }

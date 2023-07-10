@@ -1,0 +1,36 @@
+.section {
+  margin-top: 120px;
+}
+
+.titles-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.title {
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  max-width: 616px;
+}
+
+.sub-title {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 728px;
+}
+
+.card-container{
+  margin-bottom: 44px;
+}
