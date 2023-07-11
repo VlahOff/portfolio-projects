@@ -1,0 +1,48 @@
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+}
+
+.header {
+  margin-bottom: 80px;
+}
+
+.card {
+  display: flex;
+  gap: 64px;
+  border-radius: 45px;
+  margin: 0 100px;
+  padding: 70px 60px;
+  background-color: var(--dark);
+}
+
+.divider {
+  width: 1px;
+  height: 186px;
+  background: #FFF;
+}
+
+.card-part {
+  max-width: 286px;
+}
+
+.text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: var(--green, #B9FF66);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}

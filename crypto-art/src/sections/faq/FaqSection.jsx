@@ -1,5 +1,4 @@
 /* eslint-disable quotes */
-import { useState } from 'react';
 import FaqDropdown from './FaqDropdown';
 
 import classes from './FaqSection.module.css';
