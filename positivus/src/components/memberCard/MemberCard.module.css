@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  padding: 40px 35px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  background: #FFF;
+  width: 386px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.profile-wrapper {
+  position: relative;
+  width: 98px;
+  height: 98px;
+}
+
+.avatar {
+  clip-path: path("M84.631 48.9117C117.473 86.3213 87.1455 116.649 49.7359 83.8068C12.3263 116.649 -18.0016 86.3213 14.8408 48.9117C-18.0016 11.5021 12.3263 -18.8258 49.7359 14.0166C87.1455 -18.8258 117.473 11.5021 84.631 48.9117Z");
+}
+
+.frame {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.name {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.title {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.social {
+  position: absolute;
+  top: 40px;
+  right: 35px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.bio {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

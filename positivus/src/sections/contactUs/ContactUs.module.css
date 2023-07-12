@@ -1,0 +1,49 @@
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  padding: 0 100px;
+}
+
+.header {
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+.contact-card {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 60px 100px 80px 100px;
+  width: 100%;
+  border-radius: 45px;
+  background: var(--grey);
+  z-index: 2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 556px;
+}
+
+.radio-btns {
+  margin-bottom: 40px;
+}
+
+.input {
+  margin-bottom: 25px;
+}
+
+.textarea {
+  margin-bottom: 40px;
+}
+
+.illustration {
+  position: absolute;
+  top: 50%;
+  right: -323px;
+  transform: translateY(-50%);
+  z-index: -1;
+}

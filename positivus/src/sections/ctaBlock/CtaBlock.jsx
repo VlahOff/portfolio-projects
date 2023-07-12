@@ -1,6 +1,7 @@
 import Button from '../../components/button/Button';
 
 import blockImage from '../../assets/BlockIllustration.png';
+
 import classes from './CtaBlock.module.css';
 
 const CtaBlock = () => {
@@ -12,7 +13,7 @@ const CtaBlock = () => {
 					Contact us today to learn more about how our digital marketing
 					services can help your business grow and succeed online.
 				</p>
-				<Button type="fill">Get your free proposal</Button>
+				<Button btnType="fill">Get your free proposal</Button>
 			</div>
 			<img
 				src={blockImage}

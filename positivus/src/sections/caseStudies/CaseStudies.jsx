@@ -1,6 +1,7 @@
 import SectionHeader from '../../components/sectionHeader/SectionHeader';
 
 import greenArrow from '../../assets/green arrow.svg';
+
 import classes from './CaseStudies.module.css';
 
 const CaseStudies = () => {

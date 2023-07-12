@@ -23,7 +23,7 @@ const HeroSection = () => {
 						online through a range of services including SEO, PPC, social media
 						marketing, and content creation.
 					</p>
-					<Button type="fill">Book a consultation</Button>
+					<Button btnType="fill">Book a consultation</Button>
 				</div>
 				<div className={classes['right-part']}>
 					<img

@@ -1,9 +1,9 @@
 import classes from './Button.module.css';
 
-const Button = ({ children, type, onClick }) => {
+const Button = ({ children, btnType, type, onClick, className }) => {
 	let btnTypeClass;
 
-	switch (type) {
+	switch (btnType) {
 		case 'primary':
 			btnTypeClass = 'fill';
 			break;
@@ -21,8 +21,9 @@ const Button = ({ children, type, onClick }) => {
 
 	return (
 		<button
-			className={`${classes.btn} ${classes[btnTypeClass]}`}
+			className={`${classes.btn} ${classes[btnTypeClass]} ${className}`}
 			onClick={onClick}
+			type={type || 'button'}
 		>
 			{children}
 		</button>

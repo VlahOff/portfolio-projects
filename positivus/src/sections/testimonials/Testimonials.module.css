@@ -1,0 +1,36 @@
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  padding: 0 100px;
+}
+
+.card {
+  height: 625px;
+  padding: 84px 0px;
+  border-radius: 45px;
+  background: var(--dark);
+}
+
+.header {
+  margin-bottom: 85px;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 50px;
+  overflow: hidden;
+  height: 358px;
+  margin-bottom: 124px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 564px;
+  margin: 0 auto;
+}

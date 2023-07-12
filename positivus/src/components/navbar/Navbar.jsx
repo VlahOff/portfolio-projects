@@ -1,6 +1,7 @@
 import Button from '../button/Button';
 
 import logo from '../../assets/Logo.svg';
+
 import classes from './Navbar.module.css';
 
 const Navbar = () => {
@@ -55,7 +56,7 @@ const Navbar = () => {
 					</a>
 				</li>
 				<li>
-					<Button type="outline">Request a quote</Button>
+					<Button btnType="outline">Request a quote</Button>
 				</li>
 			</ul>
 		</nav>

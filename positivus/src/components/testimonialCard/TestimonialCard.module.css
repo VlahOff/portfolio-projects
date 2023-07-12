@@ -1,0 +1,47 @@
+.card {
+  position: relative;
+  width: 606px;
+  height: 266px;
+}
+
+.description-wrapper {
+  fill: var(--dark);
+  border: 1px solid var(--green);
+  border-radius: 30px;
+  padding: 48px 52px 52px 52px;
+  margin-bottom: 48px;
+}
+
+.description {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -2px;
+  left: 44px;
+}
+
+.title-wrapper {
+  padding-left: 60px;
+}
+
+.name {
+  color: #B9FF66;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.title {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

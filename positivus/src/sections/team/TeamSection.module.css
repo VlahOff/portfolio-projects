@@ -2,4 +2,27 @@
   max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 100px;
+  padding: 0 100px;
+}
+
+.header {
+  margin-bottom: 85px;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.btn {
+  width: 269px;
+  text-align: center;
 }

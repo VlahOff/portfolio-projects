@@ -4,6 +4,7 @@ import CardWithBorder from '../cardWithBorder/CardWithBorder';
 
 import minusIcon from '../../assets/Minus icon.svg';
 import plusIcon from '../../assets/Plus icon.svg';
+
 import classes from './Accordion.module.css';
 
 const Accordion = ({ number, title, description }) => {

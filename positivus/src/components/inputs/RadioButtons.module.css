@@ -1,0 +1,39 @@
+.buttons-container {
+  display: flex;
+  gap: 35px;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.input {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+
+.input:checked {
+  accent-color: #000;
+}
+
+.input:checked::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: var(--green);
+}
+
+.label {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
