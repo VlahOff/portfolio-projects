@@ -1,6 +1,6 @@
 import Button from '../button/Button';
 
-import logo from '../../assets/Logo.svg';
+import logo from '../../assets/LogoBlack.svg';
 
 import classes from './Navbar.module.css';
 

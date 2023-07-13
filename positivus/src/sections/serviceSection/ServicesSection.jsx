@@ -16,6 +16,7 @@ const ServicesSection = () => {
 			<SectionHeader
 				title="Services"
 				subTitle="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
+				className={classes.header}
 			/>
 			<div className={classes['cards-container']}>
 				<ServiceCard
