@@ -1,3 +1,5 @@
+import Hamburger from 'hamburger-react';
+import { useState } from 'react';
 import Button from '../button/Button';
 
 import logo from '../../assets/LogoBlack.svg';
@@ -5,6 +7,8 @@ import logo from '../../assets/LogoBlack.svg';
 import classes from './Navbar.module.css';
 
 const Navbar = () => {
+	const [isOpen, setIsOpen] = useState(false);
+
 	return (
 		<nav className={classes.nav}>
 			<div className={classes['logo-wrapper']}>
@@ -59,6 +63,12 @@ const Navbar = () => {
 					<Button btnType="outline">Request a quote</Button>
 				</li>
 			</ul>
+			<div className={classes['hamburger-menu']}>
+				<Hamburger
+					toggle={setIsOpen}
+					toggled={isOpen}
+				/>
+			</div>
 		</nav>
 	);
 };

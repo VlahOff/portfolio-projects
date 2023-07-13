@@ -46,3 +46,7 @@
 .logo {
   mix-blend-mode: luminosity;
 }
+
+@media screen and (max-width: 1200px) {
+  
+}

@@ -23,3 +23,17 @@
   font-weight: 400;
   line-height: 28px;
 }
+
+.hamburger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1254px) {
+  .right-part {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
