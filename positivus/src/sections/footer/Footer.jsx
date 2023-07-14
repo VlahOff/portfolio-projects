@@ -10,79 +10,77 @@ import classes from './Footer.module.css';
 const Footer = () => {
 	return (
 		<footer className={classes.footer}>
-			<div className={classes['links-container']}>
-				<img
-					src={logo}
-					alt="site logo"
-					className={classes.logo}
-				/>
-				<ul className={classes.links}>
-					<li>
-						<a
-							href="#"
-							className={classes.link}
-						>
-							About us
-						</a>
-					</li>
-					<li>
-						<a
-							href="#"
-							className={classes.link}
-						>
-							Services
-						</a>
-					</li>
-					<li>
-						<a
-							href="#"
-							className={classes.link}
-						>
-							Use Cases
-						</a>
-					</li>
-					<li>
-						<a
-							href="#"
-							className={classes.link}
-						>
-							Pricing
-						</a>
-					</li>
-					<li>
-						<a
-							href="#"
-							className={classes.link}
-						>
-							Blog
-						</a>
-					</li>
-				</ul>
-				<div className={classes.socials}>
-					<a href="#">
-						<img
-							src={linkedInIcon}
-							alt="LinkedIn icon"
-							className={classes['social-icon']}
-						/>
+			<img
+				src={logo}
+				alt="site logo"
+				className={classes.logo}
+			/>
+			<ul className={classes.links}>
+				<li>
+					<a
+						href="#"
+						className={classes.link}
+					>
+						About us
 					</a>
-					<a href="#">
-						<img
-							src={facebookIcon}
-							alt="Facebook icon"
-							className={classes['social-icon']}
-						/>
+				</li>
+				<li>
+					<a
+						href="#"
+						className={classes.link}
+					>
+						Services
 					</a>
-					<a href="#">
-						<img
-							src={twitterIcon}
-							alt="Twitter icon"
-							className={classes['social-icon']}
-						/>
+				</li>
+				<li>
+					<a
+						href="#"
+						className={classes.link}
+					>
+						Use Cases
 					</a>
-				</div>
+				</li>
+				<li>
+					<a
+						href="#"
+						className={classes.link}
+					>
+						Pricing
+					</a>
+				</li>
+				<li>
+					<a
+						href="#"
+						className={classes.link}
+					>
+						Blog
+					</a>
+				</li>
+			</ul>
+			<div className={classes.socials}>
+				<a href="#">
+					<img
+						src={linkedInIcon}
+						alt="LinkedIn icon"
+						className={classes['social-icon']}
+					/>
+				</a>
+				<a href="#">
+					<img
+						src={facebookIcon}
+						alt="Facebook icon"
+						className={classes['social-icon']}
+					/>
+				</a>
+				<a href="#">
+					<img
+						src={twitterIcon}
+						alt="Twitter icon"
+						className={classes['social-icon']}
+					/>
+				</a>
 			</div>
-			<div className={classes['contact-container']}>
+			<div className={classes['mid-section']}>
 				<div className={classes.contact}>
 					<h4 className={classes.title}>Contact us:</h4>
 					<p className={classes.info}>Email: info@positivus.com</p>
