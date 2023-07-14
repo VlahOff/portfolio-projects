@@ -19,7 +19,7 @@
 
 .divider {
   width: 1px;
-  height: 186px;
+  height: auto;
   background: #FFF;
 }
 
@@ -45,4 +45,43 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+}
+
+@media screen and (max-width: 988px) {
+  .section {
+    padding: 0 20px;
+  }
+
+  .card {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: unset;
+    background-color: unset;
+    border-radius: unset;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .card-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 45px;
+    padding: 42px 50px;
+    min-width: 350px;
+    background-color: var(--dark);
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: unset;
+  }
 }

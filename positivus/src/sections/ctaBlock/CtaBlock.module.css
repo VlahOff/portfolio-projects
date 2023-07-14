@@ -1,12 +1,13 @@
 .block {
   display: flex;
-  max-width: 1240px;
-  height: 347px;
-  padding: 0px 60px;
+  justify-content: space-between;
   align-items: center;
-  gap: 275px;
+  gap: 20px;
   border-radius: 45px;
   background: var(--grey);
+  height: 347px;
+  max-width: 1240px;
+  padding: 0px 60px;
   margin: 0 auto;
   margin-bottom: 163.5px;
 }
@@ -16,6 +17,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 26px;
+  max-width: 486px;
 }
 
 .title {
@@ -32,4 +34,23 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media screen and (max-width: 1300px) {
+  .block {
+    margin: 0 20px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 848px) {
+  .block {
+    height: unset;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .image {
+    display: none;
+  }
 }

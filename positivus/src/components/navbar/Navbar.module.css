@@ -37,3 +37,12 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 874px) {
+  .nav {
+    margin: 60px auto;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    max-width: 1440px;
+  }
+}

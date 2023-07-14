@@ -113,7 +113,7 @@ const Footer = () => {
 					target="_blank"
 					className={classes['design-link']}
 				>
-					<h2 className={classes.design}>DESIGN USER</h2>
+					<h2 className={classes.design}>DESIGN USED</h2>
 				</a>
 			</div>
 		</footer>

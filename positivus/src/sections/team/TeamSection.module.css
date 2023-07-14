@@ -11,6 +11,7 @@
 
 .team-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
   margin: 0 auto;
@@ -25,4 +26,10 @@
 .btn {
   width: 269px;
   text-align: center;
+}
+
+@media screen and (max-width: 874px) {
+  .section {
+    padding: 0 20px;
+  }
 }

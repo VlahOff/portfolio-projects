@@ -7,7 +7,7 @@ import arrowWG from '../../assets/ArrowWhiteGreen.svg';
 
 import classes from './Link.module.css';
 
-const Link = ({ link, title, colorType }) => {
+const Link = ({ link, title, colorType, className }) => {
 	let color;
 	let img;
 	switch (colorType) {
@@ -45,7 +45,7 @@ const Link = ({ link, title, colorType }) => {
 	return (
 		<a
 			href={link}
-			className={classes.link}
+			className={`${classes.link} ${className}`}
 		>
 			<img
 				src={img}

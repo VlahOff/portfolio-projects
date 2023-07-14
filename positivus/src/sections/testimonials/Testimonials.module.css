@@ -34,3 +34,9 @@
   width: 564px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 874px) {
+  .section {
+    padding: 0 20px;
+  }
+}

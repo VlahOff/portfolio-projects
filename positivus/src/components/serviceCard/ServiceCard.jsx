@@ -31,17 +31,16 @@ const ServiceCard = ({ firstTitle, secondTitle, image, link, colorScheme }) => {
 
 	return (
 		<article className={`${classes.card} ${classes[colorsClass]}`}>
-			<div className={classes.box}>
-				<div className={classes.titles}>
-					<h3 className={classes.title}>{firstTitle}</h3>
-					<h3 className={classes.title}>{secondTitle}</h3>
-				</div>
-				<Link
-					title="Learn more"
-					link={link}
-					colorType={linkType}
-				/>
+			<div className={classes.titles}>
+				<h3 className={classes.title}>{firstTitle}</h3>
+				<h3 className={classes.title}>{secondTitle}</h3>
 			</div>
+			<Link
+				title="Learn more"
+				link={link}
+				colorType={linkType}
+				className={classes.link}
+			/>
 			<img
 				src={image}
 				alt={firstTitle + secondTitle}

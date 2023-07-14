@@ -18,6 +18,7 @@ const CtaBlock = () => {
 			<img
 				src={blockImage}
 				alt="block illustration"
+				className={classes.image}
 			/>
 		</div>
 	);

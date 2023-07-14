@@ -40,6 +40,11 @@
   line-height: normal;
 }
 
+.icon {
+  width: 58px;
+  height: 58px;
+}
+
 .line {
   width: 100%;
   height: 1px;
@@ -50,4 +55,34 @@
 .main {
   overflow: hidden;
   transition: max-height 300ms linear;
+}
+
+@media screen and (max-width: 874px) {
+  .card {
+    padding: 30px;
+  }
+
+  .header {
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .number {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .icon {
+    min-width: 30px;
+    height: 30px;
+  }
 }

@@ -13,11 +13,11 @@ import classes from './HeroSection.module.css';
 const HeroSection = () => {
 	return (
 		<section className={classes.hero}>
-			<div className={classes['hero-intro']}>
-				<div className={classes['left-part']}>
-					<h1 className={classes.title}>
-						Navigating the digital landscape for success
-					</h1>
+			<header className={classes['hero-header']}>
+				<h1 className={classes.title}>
+					Navigating the digital landscape for success
+				</h1>
+				<div className={classes['description-container']}>
 					<p className={classes.description}>
 						Our digital marketing agency helps businesses grow and succeed
 						online through a range of services including SEO, PPC, social media
@@ -25,15 +25,13 @@ const HeroSection = () => {
 					</p>
 					<Button btnType="fill">Book a consultation</Button>
 				</div>
-				<div className={classes['right-part']}>
-					<img
-						src={illustration}
-						alt="illustration img"
-						className={classes.illustration}
-					/>
-				</div>
-			</div>
-			<div className={classes['logo-container']}>
+				<img
+					src={illustration}
+					alt="illustration img"
+					className={classes.illustration}
+				/>
+			</header>
+			<div className={classes['logos-container']}>
 				<img
 					src={amazonLogo}
 					alt="Amazon logo"
