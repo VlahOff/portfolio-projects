@@ -33,7 +33,7 @@ const Testimonials = () => {
 						title="Marketing Director at XYZ Corp"
 					/>
 				</div>
-				<div className={classes.navigation}>
+				{/* <div className={classes.navigation}>
 					<img
 						src={leftArrow}
 						alt="left arrow"
@@ -46,7 +46,7 @@ const Testimonials = () => {
 						src={rightArrow}
 						alt="right arrow"
 					/>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
