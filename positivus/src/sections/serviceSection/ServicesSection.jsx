@@ -12,7 +12,7 @@ import classes from './ServicesSection.module.css';
 
 const ServicesSection = () => {
 	return (
-		<section className={classes['service-section']}>
+		<section className={classes['service-section']} id='services'>
 			<SectionHeader
 				title="Services"
 				subTitle="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"

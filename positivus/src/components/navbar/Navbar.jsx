@@ -20,6 +20,11 @@ const Navbar = () => {
 		};
 	}, []);
 
+	const test = e => {
+		console.log(e.target.tagName);
+		setIsOpen(false);
+	};
+
 	return (
 		<nav className={`${classes.nav} ${isSticky && classes.sticky}`}>
 			<div className={classes['logo-wrapper']}>
@@ -29,10 +34,13 @@ const Navbar = () => {
 					className={classes.logo}
 				/>
 			</div>
-			<ul className={classes['right-part']}>
+			<ul
+				className={`${classes['right-part']} ${isOpen && classes.menu}`}
+				onClick={test}
+			>
 				<li>
 					<a
-						href="#"
+						href="#about"
 						className={classes.link}
 					>
 						About us
@@ -40,7 +48,7 @@ const Navbar = () => {
 				</li>
 				<li>
 					<a
-						href="#"
+						href="#services"
 						className={classes.link}
 					>
 						Services
@@ -48,7 +56,7 @@ const Navbar = () => {
 				</li>
 				<li>
 					<a
-						href="#"
+						href="#cases"
 						className={classes.link}
 					>
 						Use Cases
@@ -56,7 +64,7 @@ const Navbar = () => {
 				</li>
 				<li>
 					<a
-						href="#"
+						href="#pricing"
 						className={classes.link}
 					>
 						Pricing
@@ -64,7 +72,7 @@ const Navbar = () => {
 				</li>
 				<li>
 					<a
-						href="#"
+						href="#blog"
 						className={classes.link}
 					>
 						Blog

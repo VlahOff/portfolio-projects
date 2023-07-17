@@ -6,8 +6,10 @@
 }
 
 .card {
-  height: 625px;
-  padding: 84px 0px;
+  max-height: 625px;
+  height: 100vh;
+  padding-top: 84px;
+  padding-bottom: 68px;
   border-radius: 45px;
   background: var(--dark);
 }
@@ -17,26 +19,26 @@
 }
 
 .testimonials-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 50px;
   overflow: hidden;
   height: 358px;
-  margin-bottom: 124px;
+  width: 100%;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 564px;
-  margin: 0 auto;
+.flickity {
+  outline: none;
+}
+
+.flickity article {
+  margin: 0 50px;
 }
 
 @media screen and (max-width: 874px) {
   .section {
     padding: 0 20px;
+  }
+
+  .card {
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 }

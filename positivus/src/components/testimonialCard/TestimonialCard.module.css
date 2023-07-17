@@ -1,7 +1,10 @@
 .card {
-  position: relative;
   max-width: 606px;
   height: 266px;
+}
+
+.bubble {
+  margin-bottom: 20px;
 }
 
 .description-wrapper {
@@ -9,7 +12,8 @@
   border: 1px solid var(--green);
   border-radius: 30px;
   padding: 48px 52px 52px 52px;
-  margin-bottom: 48px;
+  max-height: 360px;
+  overflow-y: auto;
 }
 
 .description {
@@ -21,11 +25,8 @@
 }
 
 .arrow {
-  position: absolute;
-  bottom: -0.2%;
-  left: 10%;
-  /* bottom: -2px;
-  left: 44px; */
+  margin-left: 44px;
+  margin-top: -2px;
 }
 
 .title-wrapper {
