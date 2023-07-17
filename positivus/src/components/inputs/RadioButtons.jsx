@@ -9,19 +9,19 @@ const RadioButtons = ({ buttons, onChange, value, id, className }) => {
 						className={classes['btn-wrapper']}
 						key={b.value}
 					>
-						<input
-							type="radio"
-							name={b.label}
-							id={id}
-							value={b.value}
-							checked={value === b.value}
-							onChange={onChange}
-							className={classes.input}
-						/>
 						<label
-							htmlFor={b.value}
+							htmlFor={b.id}
 							className={classes.label}
 						>
+							<input
+								type="radio"
+								name={b.label}
+								id={id}
+								value={b.value}
+								checked={value === b.value}
+								onChange={onChange}
+								className={classes.input}
+							/>
 							{b.label}
 						</label>
 					</div>
