@@ -71,3 +71,13 @@
   width: 18px;
   height: 18px;
 }
+
+@media screen and (max-width: 1238px) {
+  .navigation {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}

@@ -17,6 +17,7 @@ function App() {
 				<NavBar />
 			</header>
 			<main>
+				{/* 
 				<HeroSection />
 				<BrandsBanner />
 				<AboutSection />
@@ -24,9 +25,10 @@ function App() {
 				<Divider />
 				<FaqSection />
 				<JoinSection />
-				<Divider />
+				<Divider /> 
+				*/}
 			</main>
-			<footer>
+			{/* <footer>
 				<Footer />
 				<div className={classes.wrapper}>
 					<a
@@ -36,7 +38,7 @@ function App() {
 						DESIGN USED
 					</a>
 				</div>
-			</footer>
+			</footer> */}
 		</>
 	);
 }
