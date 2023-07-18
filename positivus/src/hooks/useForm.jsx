@@ -39,6 +39,16 @@ export const useForm = initialValues => {
 		}
 	};
 
+	const radioChangeHandler = (event, id) => {
+		console.log(event.target.value);
+		setValues(state => {
+			return {
+				...state,
+				[id]: event.target.value,
+			};
+		});
+	};
+
 	const doPasswordMatch = value => {
 		return values?.password === value;
 	};
@@ -51,6 +61,7 @@ export const useForm = initialValues => {
 		formValues: values,
 		isFormValid,
 		changeHandler,
+		radioChangeHandler,
 		doPasswordMatch,
 		resetValues,
 		setValues,

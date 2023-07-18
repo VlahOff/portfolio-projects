@@ -10,7 +10,7 @@ import illustration from '../../assets/ContactIllustration.png';
 import classes from './ContactUs.module.css';
 
 const ContactUs = () => {
-	const { formValues, changeHandler, isFormValid } = useForm({
+	const { formValues, changeHandler, radioChangeHandler } = useForm({
 		radioType: 'sayHi',
 		name: '',
 		email: '',
@@ -39,9 +39,8 @@ const ContactUs = () => {
 							{ label: 'Say Hi', value: 'sayHi' },
 							{ label: 'Get a Quote', value: 'getQuote' },
 						]}
-						id="radioType"
 						className={classes['radio-btns']}
-						onChange={changeHandler}
+						onChange={e => radioChangeHandler(e, 'radioType')}
 						value={formValues.radioType}
 					/>
 					<Input

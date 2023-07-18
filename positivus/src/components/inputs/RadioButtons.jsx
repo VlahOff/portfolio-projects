@@ -1,6 +1,6 @@
 import classes from './RadioButtons.module.css';
 
-const RadioButtons = ({ buttons, onChange, value, id, className }) => {
+const RadioButtons = ({ buttons, onChange, value, className }) => {
 	return (
 		<div className={`${classes['buttons-container']} ${className}`}>
 			{buttons.map(b => {
@@ -9,19 +9,21 @@ const RadioButtons = ({ buttons, onChange, value, id, className }) => {
 						className={classes['btn-wrapper']}
 						key={b.value}
 					>
+						<input
+							type="radio"
+							name={b.label}
+							id={b.value}
+							value={b.value}
+							checked={value === b.value}
+							onChange={onChange}
+							className={classes.input}
+						/>
 						<label
-							htmlFor={b.id}
 							className={classes.label}
+							htmlFor={b.value}
 						>
-							<input
-								type="radio"
-								name={b.label}
-								id={id}
-								value={b.value}
-								checked={value === b.value}
-								onChange={onChange}
-								className={classes.input}
-							/>
+							<span className={classes.circle}></span>
+							<span className={classes.dot}></span>
 							{b.label}
 						</label>
 					</div>
