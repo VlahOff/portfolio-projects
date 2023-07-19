@@ -28,3 +28,9 @@
   align-items: center;
   gap: 16px;
 }
+
+@media screen and (max-width: 576px) {
+  .section {
+    margin: 100px 30px;
+  }
+}

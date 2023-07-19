@@ -31,9 +31,27 @@
   max-width: 728px;
 }
 
-.card-container{
+.card-container {
   display: flex;
   flex-direction: column;
   gap: 60px;
   margin-bottom: 44px;
+}
+
+@media screen and (max-width: 984px) {
+  .title {
+    font-size: 36px;
+    margin: 0 20px;
+  }
+
+  .sub-title {
+    margin: 0 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }

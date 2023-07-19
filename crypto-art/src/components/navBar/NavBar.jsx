@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Hamburger from 'hamburger-react';
 
 import githubLogo from '../../assets/GitHub Logo.svg';
 import instagramLogo from '../../assets/Instagram Logo.svg';
@@ -9,6 +10,7 @@ import classes from './NavBar.module.css';
 
 const NavBar = () => {
 	const [isSticky, setIsSticky] = useState(false);
+	const [isOpen, setIsOpen] = useState(false);
 
 	useEffect(() => {
 		window.onscroll = () => {
@@ -32,7 +34,9 @@ const NavBar = () => {
 				</div>
 				<p className={classes['logo-text']}>Cryptoart</p>
 			</div>
-			<ul className={classes['center-nav']}>
+			<ul
+				className={`${classes['center-nav']} ${isOpen && classes['menu-links-open']}`}
+			>
 				<li>
 					<a
 						href="#home"
@@ -74,7 +78,9 @@ const NavBar = () => {
 					</a>
 				</li>
 			</ul>
-			<div className={classes['right-nav']}>
+			<div
+				className={`${classes['right-nav']} ${isOpen && classes['menu-social-open']}`}
+			>
 				<a
 					href=""
 					className={classes.link}
@@ -105,6 +111,13 @@ const NavBar = () => {
 						className={classes.logo}
 					/>
 				</a>
+			</div>
+			<div className={classes['menu-btn']}>
+				<Hamburger
+					color="#fff"
+					toggle={setIsOpen}
+					toggled={isOpen}
+				/>
 			</div>
 		</nav>
 	);

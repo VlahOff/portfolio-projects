@@ -1,11 +1,12 @@
 .banner {
   display: flex;
+  flex-wrap: wrap;
   padding: 15px 16px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   background-color: #FF4262;
-  height: 82px;
+  min-height: 82px;
 }
 
 .brand {

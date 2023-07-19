@@ -1,6 +1,7 @@
 .card {
   padding: 19px 24px;
-  width: 732px;
+  max-width: 732px;
+  width: 100%;
   border-radius: 10px;
   position: relative;
   z-index: 1;
@@ -26,6 +27,8 @@
 
 .btn {
   cursor: pointer;
+  min-width: 32px;
+  min-height: 32px;
 }
 
 .rotate {
@@ -52,7 +55,7 @@
   height: 32px;
 }
 
-.description{
+.description {
   margin-top: 2rem;
 }
 
