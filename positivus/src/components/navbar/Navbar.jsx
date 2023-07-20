@@ -1,9 +1,9 @@
 import Hamburger from 'hamburger-react';
 import { useEffect, useState } from 'react';
+
 import Button from '../button/Button';
 
 import logo from '../../assets/LogoBlack.svg';
-
 import classes from './Navbar.module.css';
 
 const Navbar = () => {
@@ -20,8 +20,7 @@ const Navbar = () => {
 		};
 	}, []);
 
-	const test = e => {
-		console.log(e.target.tagName);
+	const closeMenu = e => {
 		setIsOpen(false);
 	};
 
@@ -36,7 +35,7 @@ const Navbar = () => {
 			</div>
 			<ul
 				className={`${classes['right-part']} ${isOpen && classes.menu}`}
-				onClick={test}
+				onClick={closeMenu}
 			>
 				<li>
 					<a
