@@ -7,7 +7,7 @@ import classes from './Footer.module.css';
 
 const Footer = () => {
 	return (
-		<div className={classes.footer}>
+		<footer className={classes.footer}>
 			<div className={classes['logo-wrapper']}>
 				<img
 					src={logo}
@@ -48,9 +48,9 @@ const Footer = () => {
 				target="_blank"
 				className={classes.link}
 			>
-				Design used
+				DESIGN USED
 			</a>
-		</div>
+		</footer>
 	);
 };
 

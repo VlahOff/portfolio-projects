@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
   gap: 23px;
-  height: 148px;
+  /* height: 148px; */
+  padding: 32px 0;
 }
 
 .logo-wrapper {
@@ -33,4 +34,20 @@
 
 .designer-link {
   text-decoration: underline;
+}
+
+.design-link {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  color: #FF4262;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+
+.link:hover {
+  border: 1px solid white;
 }

@@ -23,9 +23,7 @@ function App() {
 				<ServicesSection />
 				<ContactSection />
 			</main>
-			<footer>
-				<Footer />
-			</footer>
+			<Footer />
 		</>
 	);
 }

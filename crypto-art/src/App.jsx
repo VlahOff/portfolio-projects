@@ -8,8 +8,6 @@ import FaqSection from './sections/faq/FaqSection';
 import HeroSection from './sections/hero/HeroSection';
 import JoinSection from './sections/join/JoinSection';
 
-import classes from './App.module.css';
-
 function App() {
 	return (
 		<>
@@ -26,17 +24,7 @@ function App() {
 				<JoinSection />
 				<Divider />
 			</main>
-			<footer>
-				<Footer />
-				<div className={classes.wrapper}>
-					<a
-						href="https://www.figma.com/community/file/1257062858453316868"
-						className={classes.link}
-					>
-						DESIGN USED
-					</a>
-				</div>
-			</footer>
+			<Footer />
 		</>
 	);
 }
